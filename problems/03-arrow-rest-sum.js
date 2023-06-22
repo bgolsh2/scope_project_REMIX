@@ -12,6 +12,15 @@ arrowRestSum(0); // => 0
 ***********************************************************************/
 
 // Your code here
+const arrowRestSum = (...params) => {
+  //params = [3,5,6]
+  let sum = 0;
+  for(let i = 0; i < params.length; i++){
+    let el = params[i];
+    sum += el;
+  }
+  return sum;
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
