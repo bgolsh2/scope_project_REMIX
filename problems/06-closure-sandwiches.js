@@ -17,7 +17,16 @@ sandwich2("pb") // => "One sandwich with tomato and pb"
 
 ***********************************************************************/
 
-// Your code here
+function sandwichMaker() {
+  let order = "One sandwich with tomato";
+    
+    function orderBuilder(string) {
+      order += " and " + string;
+      return order;
+    } 
+
+    return orderBuilder;
+  }
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
