@@ -16,6 +16,24 @@ hidden2(); // returns 1
 ***********************************************************************/
 
 // Your code here
+const hiddenCounter = function(){
+  let count = 0;
+
+  let counter = function(){
+    count++;
+    return count;
+  }
+
+  return counter;
+}
+
+//let hidden1 = hiddenCounter(); //returns a function
+//hidden1(); //returns 1
+//hidden2(); //returns 2
+
+//let hidden2 = hiddenCounter();
+//hidden2(); //returns
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
