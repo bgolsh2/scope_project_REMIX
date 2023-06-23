@@ -27,8 +27,23 @@ Example 4:
   console.log(threeDays()); // prints "Happy New Year!"
 
 ***********************************************************************/
+//each time we return we want in incrememnt through n
+// check if n is less
+const countDownTimer = (n) => {
+  if(n <= 0) return "Happy New Year!"
+  return count = () => {
+    n--;
 
-// Your code here
+    if(n === 0) {
+      return "Happy New Year!"
+    } else {
+        return count;
+    }
+
+  }
+
+}
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
@@ -38,3 +53,10 @@ try {
   // catch the ref err
   module.exports = null;
 }
+
+/*
+
+
+
+
+*/

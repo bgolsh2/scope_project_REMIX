@@ -22,7 +22,13 @@ console.log(smoothie2("pineapple"));
 // prints "I'm having a smoothie with apples and bananas and berries and pineapple"
 ***********************************************************************/
 
-// Your code here
+const smoothieMachine = () => {
+    let allIngredients = [];
+  return (...ingredients) => {
+    allIngredients = [...allIngredients, ...ingredients];
+      return "I'm having a smoothie with " + allIngredients.join(" and");
+  } 
+}
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 try {

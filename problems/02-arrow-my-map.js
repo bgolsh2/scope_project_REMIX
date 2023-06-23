@@ -26,6 +26,19 @@ const arrowMyMap = (array, cb) => {
     } return newArray;
 } 
 
+/*
+
+const arrowMyMap = (array, cbs) =>
+
+  array.forEach({ele, i}) => {
+    array[i] = cbs(ele);
+
+  })
+  return array;
+
+
+*/
+
 
 /**************DO NOT MODIFY ANYTHING UNDER THIS  LINE*****************/
 
